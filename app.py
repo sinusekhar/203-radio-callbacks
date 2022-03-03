@@ -9,8 +9,8 @@ import plotly.graph_objs as go
 
 myheading1='Callback demo from Sinu!'
 tabtitle = 'xkcd'
-list_of_options=['box plot', 'correlation', 'git commit', 'scatterplot','math_symbols']
-list_of_images=['outlier.png', 'correlation.png', 'gitcommit.jpg', 'scatterplot.png', 'good_code.png','mathematical_symbol_fight.png']
+list_of_options=['box plot', 'correlation', 'git commit', 'scatterplot','math_symbols','dependency']
+list_of_images=['outlier.png', 'correlation.png', 'gitcommit.jpg', 'scatterplot.png', 'good_code.png','mathematical_symbol_fight.png','dependency.png']
 sourceurl = 'https://xkcd.com/'
 githublink = 'https://github.com/sinusekhar/203-radio-callbacks'
 
@@ -34,6 +34,8 @@ app.layout = html.Div(children=[
                 {'label':list_of_options[1], 'value':list_of_images[1]},
                 {'label':list_of_options[2], 'value':list_of_images[2]},
                 {'label':list_of_options[3], 'value':list_of_images[3]},
+                {'label':list_of_options[4], 'value':list_of_images[5]},
+                {'label':list_of_options[5], 'value':list_of_images[6]},            
                 ],
         value=list_of_images[4],
         ),
